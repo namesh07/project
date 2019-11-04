@@ -1,0 +1,9 @@
+# apache.yml
+---
+ - hosts: 127.0.0.1
+   tasks:
+    - git:
+      repo: git@github.com:namesh07/test.git
+      clone: yes
+      update: no
+      become: yes

@@ -1,0 +1,6 @@
+  version: '2'
+  services:
+    httpd:
+       build: ./docker
+       ports:
+          - 80:80
